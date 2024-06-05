@@ -1,0 +1,25 @@
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; 
+}
+
+.recipe-item {
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 260px; 
+  text-align: center;
+  cursor: pointer;
+}
+
+.recipe-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recipe-item h2 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
